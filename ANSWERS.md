@@ -1,4 +1,8 @@
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+    If we remove hooks from the equation, then class components are used for state management and to deal with component life cycle events. Functional components are pure components that do not handle any of the state of the application.
 - [ ] Name three lifecycle methods and their purposes.
+    We can look at the componentWillUnmount, render, componentDidMount. Render is the only method that is not optional out of the group and renders the application. It survives through the mounting and updating phases of a components life cycle. The componentDidMount is after creation of the component and when the component is mounted, which happens only one time during the life of a component. This process can be repeated. The componentWillUnmount helps to remove any unnecessary side effects or clear any code and happens right before the death of the component. This also happens only one time and can be repeated if the cycle begins anew. 
 - [ ] What is the purpose of a custom hook?
+    A custom hook is a beautiful tool that helps keep code more DRy and allows a program to become more powerful. We can nest other custom hooks and manage functions in state with custom hooks. It really is an impressive tool for resuable code.
 - [ ] Why is it important to test our apps?
+    Testing is always important for software or any tool. We want our code/program to be scalable and testing will allow us to scale appropriately without any major issues. We test functionality of components/functions/expected outcomes and edge cases. This just assures the customer/user gets a piece of software that really is secure and without bugs.
