@@ -25,7 +25,7 @@ export default class PlayerList extends Component {
 
   render() {
     return (
-      <div data-testid='playerList'>
+      <div className='listContainer' data-testid='playerList'>
         {this.state.data.map(player => (
           <PlayerCard key={player.id} playerData={player} />
         ))}
