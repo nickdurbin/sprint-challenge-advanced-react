@@ -1,6 +1,7 @@
 import React from 'react';
 
 function PlayerCard({ playerData }) {
+
   return (
     <div className='playerCard'>
       <h2 data-testid='playerName'>Name: {playerData.name}</h2>

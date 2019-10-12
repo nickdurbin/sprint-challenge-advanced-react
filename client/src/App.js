@@ -1,11 +1,16 @@
 import React from 'react';
 import PlayerList from './components/PlayerList';
+import NavBar from './components/NavBar';
 
 function App() {
+
   return (
-    <div className="mainContainer">
-      <PlayerList />
-    </div>
+    <>
+      <NavBar />
+      <div className="mainContainer">
+        <PlayerList />
+      </div>
+    </>
   );
 }
 
