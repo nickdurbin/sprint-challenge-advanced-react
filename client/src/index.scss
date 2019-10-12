@@ -201,7 +201,7 @@ h4 {
 }
 
 .dark-mode__toggle {
-  background: papayawhip;
+  background: whitesmoke;
   border-radius: 50px;
   border: 1px solid black;
   height: 20px;
@@ -210,7 +210,7 @@ h4 {
 }
 
 .toggle {
-  background: #f68819;
+  background: #1F2022;
   border-radius: 50px;
   height: 18px;
   left: 0;
@@ -238,5 +238,13 @@ h4 {
 
   .playerCard {
     background-color: #1F2022;
+  }
+
+  .toggle {
+    background: white;
+  }
+
+  .dark-mode__toggle {
+    background: gray;
   }
 }
