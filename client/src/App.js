@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="mainContainer">
+      <div className="mainContainer" data-testid="mainContainer">
         <PlayerList />
       </div>
     </>
