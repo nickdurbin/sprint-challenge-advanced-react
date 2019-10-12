@@ -21,7 +21,7 @@ test('checking to see if I can get a passed test', async () => {
 });
 
 test('checking the playerlist to be in the document', async () => {
-  const wrapper = rtl.render(<PlayerList />);
-  const player = wrapper.queryByTestId('playerList');
+  const wrapper = rtl.render(<PlayerCard key={player.id} playerData={player} />);
+  const player = wrapper.getByText(/name/i);
   expect(await player).toBeInDocument();
 })
